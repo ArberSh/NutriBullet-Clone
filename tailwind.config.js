@@ -7,6 +7,7 @@ export default {
   theme: {
     colors: {
       lightgray:'#dde6ed',
+      lightgrayer:'#d0dde6',
       lightbluegray:'#9DB2BF',
       mediumbluegray:'#526D82',
       hardbluegray:'#27374D',
