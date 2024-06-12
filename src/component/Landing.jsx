@@ -34,7 +34,10 @@ function Landing() {
     <div className="overflow-hidden h-full bg-gradient-to-br from-mediumbluegray from-25% to-darkblue ">
       <Nav></Nav>
       <div className="max-[640px]:p-0 p-20 flex justify-around items-start max-[640px]:flex-col">
-        <div data-aos="fade-up" className=" pt-20 w-1/2 max-[640px]:w-full max-[640px]:px-10">
+        <div
+          data-aos="fade-up"
+          className=" pt-20 w-1/2 max-[640px]:w-full max-[640px]:px-6"
+        >
           <h1 className=" text-lightbluegray text-8xl font-body font-semibold">
             BEST <span className=" text-lightgray">JUICER</span> IN THE WORLD
           </h1>
@@ -47,7 +50,10 @@ function Landing() {
             Shop Now
           </button>
         </div>
-        <div className="max-[640px]:flex justify-center items-center w-full py-6]" data-aos="fade-left">
+        <div
+          className="flex justify-center max-[640px]:items-center max-[640px]:w-full max-[640px]:py-6 w-1/2 "
+          data-aos="fade-left"
+        >
           <img
             className=" max-[1030px]:w-40 w-64 rotate-12"
             src={Juicer}
