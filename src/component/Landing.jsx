@@ -55,7 +55,7 @@ function Landing() {
           data-aos="fade-left"
         >
           <img
-            className=" max-[1030px]:w-40 w-64 rotate-12"
+            className=" max-[1030px]:w-56 w-64 rotate-12"
             src={Juicer}
             alt=""
           />
