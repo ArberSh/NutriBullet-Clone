@@ -5,6 +5,7 @@ import './App.css'
 import Nav from './component/Nav'
 import Landing from './component/Landing'
 import AboutUs from './component/AboutUs'
+import BestProducts from './component/BestProducts'
 
 function App() {
 
@@ -12,11 +13,7 @@ function App() {
     <div className='overflow-hidden'>
       <Landing></Landing>
       <AboutUs></AboutUs>
-      <h1 className='text-4xl'>hi</h1>
-      <h1 className='text-4xl'>hi</h1>
-      <h1 className='text-4xl'>hi</h1>
-      <h1 className='text-4xl'>hi</h1>
-      <h1 className='text-4xl'>hi</h1>
+      <BestProducts></BestProducts>
     </div>
   )
 }

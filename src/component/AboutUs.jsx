@@ -37,7 +37,7 @@ function AboutUs() {
         <h1 data-aos="fade-up" className='text-center text-5xl font-body font-semibold px-4 text-hardbluegray'>WHY ARE WE THE BEST?</h1>
     <div className='mt-6 flex justify-around items-center max-[640px]:flex-col'>
         <div data-aos="fade-right" className='w-1/2 flex justify-center content-center px-6'>
-            <img className='w-64' src={Nutribullet} alt="" />
+            <img className='w-64 duration-300 hover:w-60' src={Nutribullet} alt="" />
         </div>
         <div  className=' w-3/4 grid px-8 gap-6 grid-cols-2 max-[1200px]:grid-cols-1 max-[640px]:my-6'>
             <div data-aos="fade-up" data-aos-duration="500" className=' text-center flex justify-items-center flex-col items-center'>
