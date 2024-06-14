@@ -36,7 +36,7 @@ function BestProducts() {
     <div className='py-6 bg-lightgray'>
         <h1 data-aos="fade-up" className=' text-center text-5xl font-body font-semibold px-4 text-hardbluegray'>BEST PRODUCTS</h1>
         <div className='my-12 flex justify-evenly px-10 items-center flex-wrap'>
-            <div data-aos="fade-up" className='flex flex-col justify-center items-center px-4'>
+            <div data-aos="fade-up" className='flex flex-col justify-center items-center '>
                 <img className='w-40 mb-4 duration-150 hover:scale-105' src={Nutribullet} alt="" />
             <Product Name="Nutribullet" Description="Meet the original nutribullet, our compact-yet-powerful 600 Watt personal blender. You choose what goes in to get the most out of every ingredient."></Product>
             </div>
