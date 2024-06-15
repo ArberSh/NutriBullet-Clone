@@ -6,6 +6,7 @@ import Nav from './component/Nav'
 import Landing from './component/Landing'
 import AboutUs from './component/AboutUs'
 import BestProducts from './component/BestProducts'
+import ContactUs from './component/ContactUs'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Landing></Landing>
       <AboutUs></AboutUs>
       <BestProducts></BestProducts>
+      <ContactUs></ContactUs>
     </div>
   )
 }

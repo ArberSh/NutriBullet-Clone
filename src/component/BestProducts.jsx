@@ -33,22 +33,22 @@ function BestProducts() {
     });
 
   return (
-    <div className='py-6 bg-lightgray'>
+    <div className='pt-10 pb-20 bg-lightgray'>
         <h1 data-aos="fade-up" className=' text-center text-5xl font-body font-semibold px-4 text-hardbluegray'>BEST PRODUCTS</h1>
-        <div className='my-12 flex justify-evenly px-10 items-center flex-wrap'>
+        <div className='my-4 flex justify-evenly px-10 items-center flex-wrap'>
             <div data-aos="fade-up" className='flex flex-col justify-center items-center '>
                 <img className='w-40 mb-4 duration-150 hover:scale-105' src={Nutribullet} alt="" />
             <Product Name="Nutribullet" Description="Meet the original nutribullet, our compact-yet-powerful 600 Watt personal blender. You choose what goes in to get the most out of every ingredient."></Product>
             </div>
-            <div data-aos="fade-up" className='flex flex-col justify-center items-center px-4'>
+            <div data-aos="fade-up" className='flex flex-col justify-center items-center'>
                 <img className='w-56 duration-150 hover:scale-105' src={NutribulletPro} alt="" />
             <Product Name="Nutribullet Pro" Description="Meet the Nutribullet Pro, a compact 900-watt blender available in various colors, including exclusive matte editions from our website. Customize your blends to maximize every ingredient’s benefits daily."></Product>
             </div>
-            <div data-aos="fade-up" className='flex flex-col justify-center items-center px-4'>
+            <div data-aos="fade-up" className='flex flex-col justify-center items-center '>
                 <img className='w-60 mb-6 duration-150 hover:scale-105' src={NutribulletPro1000} alt="" />
             <Product  Name="Nutribullet Pro+" Description="Meet the nutribullet Pro 1000, our new compact powerhouse blender. With new, ergonomically redesigned blades and cups and a powerful 1000-Watt motor, creating silky-smooth superfood smoothies has never been easier."></Product>
             </div>
-            <div data-aos="fade-up" className='flex flex-col justify-center items-center px-4'>
+            <div data-aos="fade-up" className='flex flex-col justify-center items-center '>
                 <img className='w-44 mb-10 duration-150 hover:scale-105' src={NutribulletUltra} alt="" />
             <Product  Name="Nutribullet Ultra" Description="The Nutribullet Ultra, with 1200 watts of power, an intuitive interface, and durable blades, offers quieter operation and sustainable Tritan™ Renew cups. Sleek and powerful, it consistently delivers top-quality blends."></Product>
             </div>
