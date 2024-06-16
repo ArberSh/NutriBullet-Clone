@@ -76,12 +76,12 @@ function Nav() {
             <img className='w-6' src={Cancel} alt="" />
             </button>
         </div>
-        <div className=' mt-12 flex justify-center items-center'>
-            <ul className=' divide-y-8 divide-lightgrayer'>
-            <li className=' text-3xl'>Best Seller</li>
-            <li className=' text-3xl'>Accessories</li>
-            <li className=' text-3xl'>About Us</li>
-            <li className=' text-3xl'>Contact Us</li>
+        <div className=' flex justify-start p-10'>
+            <ul className=' '>
+            <li className='w-full text-3xl border-b-2 border-b-mediumbluegray my-1'>Best Seller</li>
+            <li className='w-full text-3xl border-b-2 border-b-mediumbluegray my-1'>Accessories</li>
+            <li className=' text-3xl border-b-2 border-b-mediumbluegray my-1'>About Us</li>
+            <li className=' text-3xl border-b-2 border-b-mediumbluegray my-1'>Contact Us</li>
             </ul>
         </div>
     </div>
