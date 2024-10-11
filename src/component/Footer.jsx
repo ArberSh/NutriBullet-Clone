@@ -130,7 +130,7 @@ function ContactUs() {
           </h2>
         </div>
         <div className="flex justify-around items-center w-52 flex-wrap">
-          <img className="w-8 cursor-pointer" src={Facebook} alt="" />
+          <img className="w-8 cursor-pointer " src={Facebook} alt="" />
           <img className="w-8 cursor-pointer" src={Instagram} alt="" />
           <img className="w-8 cursor-pointer" src={Twitter} alt="" />
           <img className="w-8 cursor-pointer" src={Youtube} alt="" />
